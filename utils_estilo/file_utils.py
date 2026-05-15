@@ -1,11 +1,12 @@
 import os
 
+
 def read_folder(folder: str, extensions: tuple = ("")) -> list:
     """
     Lê e retorna uma lista com o caminho de todos os arquivos
-    listados em uma pasta (incluindo dentro das subpastas), o tamanho 
-    e o nome do arquivo com a opção de listar arquivos 
-    de formatos específicos. 
+    listados em uma pasta (incluindo dentro das subpastas), o tamanho
+    e o nome do arquivo com a opção de listar arquivos
+    de formatos específicos.
     """
     audio_folder = folder
 
